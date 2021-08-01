@@ -1,0 +1,67 @@
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teacherQuote {
+  font-size: 26px;
+  color: #374493;
+  font-weight: 700;
+}
+
+.form-control {
+  width: 268px;
+  height: 37px;
+  background: white;
+  border: 0.25px solid #374493;
+
+  box-sizing: border-box;
+  border-radius: 58px;
+}
+
+.form-group {
+  text-align: center;
+}
+#loginFormBody {
+  width: 325px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff9f9; */
+  box-shadow: 0px 4px 4px rgba(69, 44, 212, 0.25);
+  border-radius: 21px;
+}
+.top-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-control {
+  width: 268px;
+  height: 37px;
+  background: #ffffff;
+  border: 0.25px solid #110f83;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+.outerdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+.innerdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-right: 100px;
+  position: absolute;
+  float: right;
+}
